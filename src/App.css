@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #eef4f7;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  font-size: 40px;
+  align-self: center;
+  padding-bottom: 10px;
+  text-align: center;
+  border-bottom: 3px solid #52bbf0;
+  display: inline;
+}
+
+.travels-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.travel-list-item {
+  width: 50%;
+  padding: 16px;
+}
+
+.travel-item {
+  background-color: #ffffff;
+}
+
+.place-img {
+  width: 100%;
+}
+
+.name-description-container {
+  padding: 20px;
+}
+
+.name {
+  color: #334155;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 24px;
+  color: #475569;
+}
+
+.loader-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
